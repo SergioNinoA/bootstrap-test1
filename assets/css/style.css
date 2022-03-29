@@ -1,0 +1,43 @@
+main{
+    min-height:80vh
+}
+footer{
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 15%;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 95%);
+    text-align: center;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    font-size: 2.5vmin;
+}
+.contact__form{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+a {
+    
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.5s linear;
+}
+a:hover{
+    color: #e0ff00;
+}
+.main__index{
+    padding-top: 8%;
+}
+.text__index{
+    font-size: 3vmin;
+    font-size: min(12px);
+    text-align: justify;
+}
+.text__about{
+    font-size: 3vmin;
+    text-align: justify;
+    padding-top: 5%;
+}
